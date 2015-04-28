@@ -9,7 +9,7 @@ title:               Arjun Sajeev
 tagline:             '-->blog'
 description:         'Web Developer.Computer Science Student'
 url:                 http://arjunsajeev.github.io
-baseurl:             ''
+baseurl:             '/arjunsajeev.github.io'
 paginate:            5
 
 # About/contact
