@@ -31,6 +31,7 @@ To test PHP , execute
 
 ```
 sudo touch /var/www/html/info.php
+
 sudo nano /var/www/html/info.php
 ```
 
