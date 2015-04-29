@@ -45,3 +45,11 @@ title: Archive
 
 ```
 The syntax `{% for post in site.posts %}` is from the Liquid templating system.
+
+##License
+
+The following directories and their contents are Copyright Tom Preston-Werner. You may not reuse anything therein without my permission:
+
+*_posts/
+
+All other directories and files are MIT Licensed.
