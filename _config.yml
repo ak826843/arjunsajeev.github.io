@@ -11,6 +11,8 @@ description:         'Web Developer.Computer Science Student'
 url:                 http://arjunsajeev.github.io
 baseurl:             ''
 paginate:            5
+gems:
+  - jekyll-sitemap
 
 # About/contact
 author:
