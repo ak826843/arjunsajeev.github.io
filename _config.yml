@@ -6,7 +6,7 @@ relative_permalinks: true
 
 # Setup
 title:               Arjun Sajeev
-tagline:             '| blog'
+tagline:             'Blog'
 description:         'Web Developer.Computer Science Student'
 url:                 http://arjunsajeev.github.io
 baseurl:             ''

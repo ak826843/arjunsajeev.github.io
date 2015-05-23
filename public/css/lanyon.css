@@ -241,7 +241,7 @@ a.sidebar-nav-item:focus {
 #sidebar-checkbox:focus ~ .sidebar-toggle,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
   color: #fff;
-  background-color: #555;
+  background-color: #DD4E4C;
 }
 
 .sidebar-toggle:active:before,
@@ -539,6 +539,18 @@ a.pagination-item:hover {
 .theme-base-0f .sidebar-toggle,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+/* Custom theme */
+.theme-dragon .sidebar,
+.theme-dragon .sidebar-toggle:active,
+.theme-dragon #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #DD4E4C;
+}
+.theme-dragon .container a,
+.theme-dragon .sidebar-toggle,
+.theme-dragon .related-posts li a:hover {
+  color: #DD4E4C;
 }
 
 
