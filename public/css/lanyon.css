@@ -66,6 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
 /*
  * Container
  *
@@ -231,10 +232,10 @@ a.sidebar-nav-item:focus {
   width: 1rem;
   height: .75rem;
   content: "";
-  background-image: -webkit-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
-  background-image:    -moz-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
-  background-image:     -ms-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
-  background-image:         linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
+  background-image: -webkit-linear-gradient(to bottom, #DD4E4C, #DD4E4C 20%, #fff 20%, #fff 40%, #DD4E4C 40%, #DD4E4C 60%, #fff 60%, #fff 80%, #DD4E4C 80%, #DD4E4C 100%);
+  background-image:    -moz-linear-gradient(to bottom, #DD4E4C, #DD4E4C 20%, #fff 20%, #fff 40%, #DD4E4C 40%, #DD4E4C 60%, #fff 60%, #fff 80%, #DD4E4C 80%, #DD4E4C 100%);
+  background-image:     -ms-linear-gradient(to bottom, #DD4E4C, #DD4E4C 20%, #fff 20%, #fff 40%, #DD4E4C 40%, #DD4E4C 60%, #fff 60%, #fff 80%, #DD4E4C 80%, #DD4E4C 100%);
+  background-image:         linear-gradient(to bottom, #DD4E4C, #DD4E4C 20%, #fff 20%, #fff 40%, #DD4E4C 40%, #DD4E4C 60%, #fff 60%, #fff 80%, #DD4E4C 80%, #DD4E4C 100%);
 }
 
 .sidebar-toggle:active,
@@ -247,10 +248,10 @@ a.sidebar-nav-item:focus {
 .sidebar-toggle:active:before,
 #sidebar-checkbox:focus ~ .sidebar-toggle:before,
 #sidebar-checkbox:checked ~ .sidebar-toggle:before {
-  background-image: -webkit-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
-  background-image:    -moz-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
-  background-image:     -ms-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
-  background-image:         linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
+  background-image: -webkit-linear-gradient(to bottom, #fff, #fff 20%, #DD4E4C 20%, #DD4E4C 40%, #fff 40%, #fff 60%, #DD4E4C 60%, #DD4E4C 80%, #fff 80%, #fff 100%);
+  background-image:    -moz-linear-gradient(to bottom, #fff, #fff 20%, #DD4E4C 20%, #DD4E4C 40%, #fff 40%, #fff 60%, #DD4E4C 60%, #DD4E4C 80%, #fff 80%, #fff 100%);
+  background-image:     -ms-linear-gradient(to bottom, #fff, #fff 20%, #DD4E4C 20%, #DD4E4C 40%, #fff 40%, #fff 60%, #DD4E4C 60%, #DD4E4C 80%, #fff 80%, #fff 100%);
+  background-image:         linear-gradient(to bottom, #fff, #fff 20%, #DD4E4C 20%, #DD4E4C 40%, #fff 40%, #fff 60%, #DD4E4C 60%, #DD4E4C 80%, #fff 80%, #fff 100%);
 }
 
 @media (min-width: 30.1em) {
@@ -542,14 +543,14 @@ a.pagination-item:hover {
 }
 
 /* Custom theme */
-.theme-dragon .sidebar,
-.theme-dragon .sidebar-toggle:active,
-.theme-dragon #sidebar-checkbox:checked ~ .sidebar-toggle {
+.theme-orange .sidebar,
+.theme-orange .sidebar-toggle:active,
+.theme-orange #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #DD4E4C;
 }
-.theme-dragon .container a,
-.theme-dragon .sidebar-toggle,
-.theme-dragon .related-posts li a:hover {
+.theme-orange .container a,
+.theme-orange .sidebar-toggle,
+.theme-orange .related-posts li a:hover {
   color: #DD4E4C;
 }
 
