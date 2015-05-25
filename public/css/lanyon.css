@@ -323,6 +323,11 @@ a.sidebar-nav-item:focus {
 .post-title a {
   color: #000;
 }
+
+.post-title a:hover {
+  color: #57ad68;
+}
+
 .page-title,
 .post-title {
   margin-top: 0;
@@ -548,10 +553,14 @@ a.pagination-item:hover {
 .theme-orange #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #000;
 }
-.theme-orange .container a,
+
 .theme-orange .sidebar-toggle,
 .theme-orange .related-posts li a:hover {
   color: #000;
+}
+
+.theme-orange .container a:hover{
+  color: #57ad68;
 }
 
 
@@ -577,4 +586,8 @@ a.pagination-item:hover {
 /* Only one tweak for a reverse layout */
 .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
   box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
+}
+
+a:hover{
+  color: #57ad68;
 }
