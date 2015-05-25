@@ -82,3 +82,20 @@ If you still face permission issues:
 sudo chown -R www-data:www-data /var/www/.
 {% endhighlight %}
 
+To enable Directory Listing:
+
+{% highlight sh %} 
+nano /etc/apache2/apache2.conf
+{% endhighlight %}
+ 
+Then add the following to the apache2.conf file:
+
+{% highlight sh %} 
+
+ <Directory /var/www/>
+        Options All Indexes FollowSymLinks
+        AllowOverride None
+        Require all granted
+</Directory>
+
+{% endhighlight %}
