@@ -463,7 +463,7 @@ a.pagination-item:hover {
   color: #ac4142;
 }
 
-/* Orange */
+/* green */
 .theme-base-09 .sidebar,
 .theme-base-09 .sidebar-toggle:active,
 .theme-base-09 #sidebar-checkbox:checked ~ .sidebar-toggle {
@@ -487,7 +487,7 @@ a.pagination-item:hover {
   color: #f4bf75;
 }
 
-/* Green */
+/* Orange */
 .theme-base-0b .sidebar,
 .theme-base-0b .sidebar-toggle:active,
 .theme-base-0b #sidebar-checkbox:checked ~ .sidebar-toggle {
@@ -548,18 +548,18 @@ a.pagination-item:hover {
 }
 
 /* Custom theme */
-.theme-orange .sidebar,
-.theme-orange .sidebar-toggle:active,
-.theme-orange #sidebar-checkbox:checked ~ .sidebar-toggle {
+.theme-green .sidebar,
+.theme-green .sidebar-toggle:active,
+.theme-green #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #000;
 }
 
-.theme-orange .sidebar-toggle,
-.theme-orange .related-posts li a:hover {
+.theme-green .sidebar-toggle,
+.theme-green .related-posts li a:hover {
   color: #000;
 }
 
-.theme-orange .container a:hover{
+.theme-green .container a:hover{
   color: #57ad68;
 }
 
