@@ -15,7 +15,7 @@ title: Reading List
 
 1)Eloquent Javascript
 
-2)Javascript for Web Developers
+2)Professional Javascript for Web Developers
 
 3)Secrets of the Javascript Ninja
 
