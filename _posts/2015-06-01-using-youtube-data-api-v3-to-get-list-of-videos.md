@@ -48,7 +48,7 @@ var playlist_id = result.data.items[0].contentDetails.relatedPlaylists.uploads;
 
 
 
--Getting videos in the Upload Playlist with the id obtained
+- Getting videos in the Upload Playlist with the id obtained
 
 {% highlight js %}
 
