@@ -27,4 +27,6 @@ title: Reading List
 
 2)Programming Ruby 1.9 and 2.0
 
-3)Ruby on Rails Tutorial
+3)Eloquent Ruby
+
+4)Ruby on Rails Tutorial
