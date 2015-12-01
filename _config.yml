@@ -1,8 +1,10 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+#permalink:           pretty
+permalink: /blog/:year/:month/:day/:title.html
 relative_permalinks: true
+
 
 # Setup
 title:               Arjun Sajeev
