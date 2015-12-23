@@ -1,0 +1,48 @@
+/*
+  Arjun Sajeev
+  http://www.arjunsajeev.com
+*/
+
+html{
+ background: url('../img/christmas.jpg') no-repeat center center fixed;
+ background-size:cover;
+ -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+ color:white;
+ overflow: hidden;
+ min-height: 100%;
+ width:100%;
+ background-position: left;
+ position: fixed;
+
+}
+
+.message{
+ margin-top:6%;
+ padding:1em;
+ margin-left: auto;
+ margin-right: auto;
+ text-align:center;
+ font-family: 'Lobster', cursive;
+ text-transform:uppercase;
+ color:#f11;
+ font-size:2.0em;
+ animation-delay: 4.0s;
+ animation-duration: 2.0s;
+ margin-bottom: 0;
+}
+
+img{
+  width:50%;
+}
+
+a:link{
+  color:inherit;
+  text-decoration: none;
+}
+@@media (min-width:480px) {
+  html{
+  background-position: left;
+}
+}
